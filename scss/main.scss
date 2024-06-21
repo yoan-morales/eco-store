@@ -18,12 +18,13 @@ nav {
   .nav-container {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     p {
       font-size: 1.8rem;
       font-weight: 400;
       line-height: 3.9rem;
+      color: $primary-text-color;
     }
     .icons {
       display: flex;
