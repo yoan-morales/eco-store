@@ -35,4 +35,56 @@ nav .nav-container .icons {
 nav .nav-container .icons img {
   width: 28px;
   height: 28px;
+  cursor: pointer;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  min-width: 320px;
+  margin: 50px auto 0;
+  color: #7c6a0a;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+article .impact-section h1 {
+  text-align: start;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+article .impact-section p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+article .impact-section button {
+  margin-top: 22px;
+  width: 180px;
+  height: 45px;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #fa9500;
+  border: none;
+  border-radius: 35px;
+}
+article .image-section {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  min-width: 320px;
+}
+article .image-section img {
+  width: 320px;
+  min-width: 250px;
+  height: 380px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
