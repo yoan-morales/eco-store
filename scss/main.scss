@@ -90,3 +90,79 @@ article {
     }
   }
 }
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+  h2 {
+    color: $primary-text-color;
+    font-size: 2.2rem;
+    padding-bottom: 60px;
+  }
+  .healthcare {
+    padding-bottom: 60px;
+    h2 {
+      font-weight: 300;
+    }
+    .card-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      column-gap: 200px;
+      row-gap: 80px;
+      width: auto;
+      height: auto;
+    }
+    .product-card {
+      padding: 20px;
+      width: 15vw;
+      height: 45vh;
+      color: $primary-text-color;
+      background-color: $secondary-color;
+      border-radius: 12px;
+      .icon-heart {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 12px;
+        img {
+          width: 28px;
+          height: 28px;
+        }
+      }
+      .product-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        img {
+          width: 12vw;
+          height: 30vh;
+          border-radius: 6px;
+          object-fit: cover;
+        }
+      }
+      h3 {
+        margin: 18px 0 0;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 1.8rem;
+      }
+      p {
+        margin: 6px 0 0;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+      }
+    }
+  }
+  .furniture {
+    @extend .healthcare;
+    .product-card {
+      background-color: $tertiary-color;
+      color: white;
+    }
+  }
+}
