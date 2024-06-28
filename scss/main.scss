@@ -215,3 +215,30 @@ section {
     }
   }
 }
+.location {
+  color: #e86424;
+  h2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .map {
+    @include flexcenter(row, center, center);
+    padding-bottom: 50px;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
+footer {
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  background-color: #fa9500;
+  color: white;
+  .social-media {
+    @include flexcenter(row, center, center);
+  }
+}

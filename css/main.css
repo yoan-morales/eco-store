@@ -222,4 +222,39 @@ section .furniture .product-card {
 }
 .gallery .gallery-image img:hover {
   transform: scale(1.1);
+}
+
+.location {
+  color: #e86424;
+}
+.location h2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.location .map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.location h3 {
+  font-size: 2rem;
+}
+.location p {
+  font-size: 1.6rem;
+}
+
+footer {
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  background-color: #fa9500;
+  color: white;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
