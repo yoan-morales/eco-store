@@ -240,5 +240,6 @@ footer {
   color: white;
   .social-media {
     @include flexcenter(row, center, center);
+    gap: 40px;
   }
 }
